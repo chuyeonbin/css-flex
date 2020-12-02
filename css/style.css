@@ -1,0 +1,59 @@
+html {
+    font-family: 'Noto Sans JP', sans-serif;
+    background: #ae916d;
+    color: #4e361d;   
+}
+body {
+    min-height: 100vh;
+}
+.container {
+    margin: 0 1rem;
+    padding: 1rem 0;
+    min-height: 100vh;
+}
+.global-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 1rem;
+}
+.main-title>h1 {
+    font-size: 6rem;
+    font-weight: 100;
+    padding: 0 1rem;
+    margin: 0 1rem;
+    border-left: 2px solid #947953;
+    border-right: 2px solid #947953;
+}
+.sub-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    height: 115px;
+    text-align: center;
+    background: coral;
+}
+.main-content {
+    display: flex;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 4px solid #947953;
+    min-height: 100vh;
+}
+.main-content-a {
+    border-right: 1px solid #947953;
+}
+.main-content-b {
+    border-left: 2px solid #947953;
+}
+.side {
+    
+    width: 50%;
+    padding: 0 1rem;
+}
+
+.card {
+    background: #ddd;
+    width: 100%;
+}
