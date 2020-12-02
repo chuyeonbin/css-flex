@@ -48,12 +48,42 @@ body {
     border-left: 2px solid #947953;
 }
 .side {
-    
     width: 50%;
     padding: 0 1rem;
 }
+.card-item {
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+.card-image {
+    height: 0;
+    padding-bottom: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.card-desc {
+    padding: 1em;
+    background-color: white;
+    flex: 1 1 auto;
+}
 
-.card {
-    background: #ddd;
-    width: 100%;
+@media (min-width: 1200px) {
+    .card-list {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -1rem;
+    }
+    .card-item {
+        width: 50%;
+        padding: 0 1rem;
+    }
+}
+
+
+.global-footer {
+    display: flex;
+    justify-content: center;
+    padding: 1em 0;
 }
